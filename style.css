@@ -1,14 +1,39 @@
-html {
-    font-family: "Roboto Mono", monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 body {
     background-color: #111;
     color: whitesmoke;
+    font-family: 'Fira Code', monospace;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+
+main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    flex-direction: column;
+    height: 50vh;
+}
+
+main button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #111;
+    color: whitesmoke;
+    border: 2px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 6px;
+    font-family: inherit;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
 }
